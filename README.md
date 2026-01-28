@@ -22,9 +22,6 @@ Settings → Secrets → Actions:
 - `AZURE_SUBSCRIPTION_ID`
 - `SQL_PASSWORD`
 
-### Deploy
-Push to `main` branch → GitHub Actions deploys automatically.
-
 ## Decisions & Trade-offs
 
 **1. App Service vs AKS**
