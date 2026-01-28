@@ -30,7 +30,7 @@ jobs:
 
     - name: Terraform Init
       working-directory: ./terraform
-      run: -backend-config="storage_account_name=tfstatetalha2024"
+      run: terraform init
 
     - name: Terraform Apply
       working-directory: ./terraform
